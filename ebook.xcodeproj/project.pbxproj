@@ -11,6 +11,16 @@
 		3728C2122ADF818800625B6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728C2112ADF818800625B6A /* ContentView.swift */; };
 		3728C2142ADF818D00625B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3728C2132ADF818D00625B6A /* Assets.xcassets */; };
 		3728C2172ADF818D00625B6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3728C2162ADF818D00625B6A /* Preview Assets.xcassets */; };
+		3728C21F2ADF82A900625B6A /* personview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728C21E2ADF82A900625B6A /* personview.swift */; };
+		3728C2212ADF82D100625B6A /* storyview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728C2202ADF82D100625B6A /* storyview.swift */; };
+		3728C2252ADF830F00625B6A /* songview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728C2242ADF830F00625B6A /* songview.swift */; };
+		3728C2272ADF84A400625B6A /* changeiconview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728C2262ADF84A400625B6A /* changeiconview.swift */; };
+		377CD0F92AE6A92300CC80AC /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377CD0F82AE6A92300CC80AC /* data.swift */; };
+		377CD0FB2AE7A81400CC80AC /* personintr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377CD0FA2AE7A81400CC80AC /* personintr.swift */; };
+		377CD0FD2AE7A8B400CC80AC /* personrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377CD0FC2AE7A8B400CC80AC /* personrow.swift */; };
+		377CD10B2AE81EA500CC80AC /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 377CD10A2AE81EA500CC80AC /* crayon_1-1.ttf */; };
+		37DECED02AE41CAF00F0687E /* personlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DECECF2AE41CAF00F0687E /* personlist.swift */; };
+		37DECED22AE41D2C00F0687E /* badguylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DECED12AE41D2C00F0687E /* badguylist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		3728C2112ADF818800625B6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3728C2132ADF818D00625B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3728C2162ADF818D00625B6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3728C21E2ADF82A900625B6A /* personview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personview.swift; sourceTree = "<group>"; };
+		3728C2202ADF82D100625B6A /* storyview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyview.swift; sourceTree = "<group>"; };
+		3728C2242ADF830F00625B6A /* songview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songview.swift; sourceTree = "<group>"; };
+		3728C2262ADF84A400625B6A /* changeiconview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeiconview.swift; sourceTree = "<group>"; };
+		377CD0F82AE6A92300CC80AC /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		377CD0FA2AE7A81400CC80AC /* personintr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personintr.swift; sourceTree = "<group>"; };
+		377CD0FC2AE7A8B400CC80AC /* personrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personrow.swift; sourceTree = "<group>"; };
+		377CD10A2AE81EA500CC80AC /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "crayon_1-1.ttf"; path = "../../../crayon_1-1.ttf"; sourceTree = "<group>"; };
+		37DECECE2AE41A6400F0687E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		37DECECF2AE41CAF00F0687E /* personlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personlist.swift; sourceTree = "<group>"; };
+		37DECED12AE41D2C00F0687E /* badguylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badguylist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,19 @@
 		3728C20E2ADF818800625B6A /* ebook */ = {
 			isa = PBXGroup;
 			children = (
+				37DECECE2AE41A6400F0687E /* Info.plist */,
+				377CD10A2AE81EA500CC80AC /* crayon_1-1.ttf */,
 				3728C20F2ADF818800625B6A /* ebookApp.swift */,
 				3728C2112ADF818800625B6A /* ContentView.swift */,
+				377CD0F82AE6A92300CC80AC /* data.swift */,
+				3728C2262ADF84A400625B6A /* changeiconview.swift */,
+				3728C21E2ADF82A900625B6A /* personview.swift */,
+				37DECED12AE41D2C00F0687E /* badguylist.swift */,
+				37DECECF2AE41CAF00F0687E /* personlist.swift */,
+				377CD0FA2AE7A81400CC80AC /* personintr.swift */,
+				377CD0FC2AE7A8B400CC80AC /* personrow.swift */,
+				3728C2202ADF82D100625B6A /* storyview.swift */,
+				3728C2242ADF830F00625B6A /* songview.swift */,
 				3728C2132ADF818D00625B6A /* Assets.xcassets */,
 				3728C2152ADF818D00625B6A /* Preview Content */,
 			);
@@ -125,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377CD10B2AE81EA500CC80AC /* crayon_1-1.ttf in Resources */,
 				3728C2172ADF818D00625B6A /* Preview Assets.xcassets in Resources */,
 				3728C2142ADF818D00625B6A /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377CD0FD2AE7A8B400CC80AC /* personrow.swift in Sources */,
 				3728C2122ADF818800625B6A /* ContentView.swift in Sources */,
+				37DECED02AE41CAF00F0687E /* personlist.swift in Sources */,
+				37DECED22AE41D2C00F0687E /* badguylist.swift in Sources */,
+				377CD0FB2AE7A81400CC80AC /* personintr.swift in Sources */,
+				3728C2272ADF84A400625B6A /* changeiconview.swift in Sources */,
+				3728C2252ADF830F00625B6A /* songview.swift in Sources */,
+				3728C21F2ADF82A900625B6A /* personview.swift in Sources */,
+				3728C2212ADF82D100625B6A /* storyview.swift in Sources */,
+				377CD0F92AE6A92300CC80AC /* data.swift in Sources */,
 				3728C2102ADF818800625B6A /* ebookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ebook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ebook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +345,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ebook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ebook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
